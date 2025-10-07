@@ -14,8 +14,7 @@ Este repositório implementa um pipeline defensivo para um incidente simulado de
 - Produzir **artefatos reprodutíveis** (CSVs) e **relatório executivo**.
 
 ## Estrutura  
-```
-case02-paloalto-rce-elastic-soc/
+```case02-paloalto-rce-elastic-soc/
 ├─ README.md
 ├─ data/
 │ └─ raw/ # logs do lab (NDJSON/CSV) — NÃO versionar
