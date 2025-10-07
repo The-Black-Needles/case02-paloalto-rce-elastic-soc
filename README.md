@@ -13,7 +13,9 @@ Este repositório implementa um pipeline defensivo para um incidente simulado de
   - Q6: **URL** completo de exfil realizada com sucesso.
 - Produzir **artefatos reprodutíveis** (CSVs) e **relatório executivo**.
 
-## Estrutura  case02-paloalto-rce-elastic-soc/
+## Estrutura  
+
+```case02-paloalto-rce-elastic-soc/
 ├─ README.md
 ├─ data/
 │ └─ raw/ # logs do lab (NDJSON/CSV) — NÃO versionar
@@ -22,7 +24,8 @@ Este repositório implementa um pipeline defensivo para um incidente simulado de
 ├─ reports/
 │ ├─ alerts/ # CSVs por regra + consolidado
 │ └─ IR_PaloAltoRCE.md # relatório final
-└─ tests/ # amostras mínimas p/ validar regras
+└─ tests/ # amostras mínimas p/ validar regras```
+
 ## Como rodar (visão geral)
 1) Subir ELK (docker compose).  
 2) Ingerir `data/raw/*.ndjson` em `paloalto-lab`.  
