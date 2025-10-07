@@ -1,0 +1,10 @@
+.DS_Store
+.venv/
+data/raw/*
+reports/**/*.json
+reports/**/*.ndjson
+*.tmp
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
